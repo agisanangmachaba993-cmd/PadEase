@@ -1,46 +1,21 @@
-# PadEase
-
-## Website Project
+# PadEase Website Project
 
 PadEase is a menstrual health website created for the WEDE5020 Practical/POE. The website aims to provide affordable and accessible menstrual products while promoting menstrual health, education and confidence.
 
-## Part 2 – CSS Styling and Responsive Design
+## Project Goals
 
-For Part 2, the PadEase website was improved using an external CSS stylesheet. The website was redesigned to create a more attractive, professional and consistent appearance across all pages.
+The main goals of the PadEase website are:
 
-### CSS Features Implemented
+- To provide information about affordable menstrual products.
+- To make menstrual products more accessible.
+- To promote menstrual health and hygiene.
+- To provide users with information about the services offered by PadEase.
+- To create a professional, user-friendly and attractive website.
+- To support women and girls by providing useful menstrual health information.
 
-- Consistent pink colour scheme throughout the website
-- Professional navigation bar
-- Styled headings and paragraphs
-- Responsive page layouts
-- Styled buttons and links
-- Image gallery styling
-- Card and section styling
-- Footer styling
-- Hover effects for navigation and buttons
-- Background video on the home page
-- Responsive design for different screen sizes
-- Mobile-friendly navigation and content
+## Current Website Analysis
 
-## Part 1 Feedback and Improvements
-
-The Part 1 website project proposal received 97/100.
-
-The following areas were improved based on the feedback received:
-
-### Proposed Website Features and Functionality
-The proposed features were expanded and implemented in the website to provide more detail and functionality.
-
-### Proposals
-The website proposal content was developed further and the website was implemented with additional content and features.
-
-### References
-The references were improved and additional sources were included for the images and video used on the website.
-
-## Website Pages
-
-The PadEase website contains the following pages:
+The original PadEase website was created using HTML and contained several pages, including:
 
 - Home
 - About
@@ -48,74 +23,158 @@ The PadEase website contains the following pages:
 - Gallery
 - Contact
 
-## Website Features
+The original website provided the basic structure and content but required improvements to its appearance, consistency and responsiveness.
+
+## Proposed Website Features and Functionality
+
+The improved PadEase website includes:
+
+- A professional navigation bar.
+- A responsive layout for different screen sizes.
+- A home page with a hero section.
+- A background video on the home page.
+- Call-to-action buttons.
+- Information about PadEase and its purpose.
+- Services and product information.
+- An image gallery.
+- Contact information.
+- Contact form.
+- Location/map section.
+- Responsive images.
+- Styled sections and cards.
+- Hover effects on buttons and navigation links.
+- A professional footer.
+- Consistent branding and colours throughout the website.
+
+## Design and Aesthetics
+
+The PadEase website uses a pink colour scheme to create a friendly, welcoming and consistent visual identity.
+
+The design includes:
+
+- Pink and white colour combinations.
+- Clear headings and readable paragraphs.
+- Rounded sections and cards.
+- Styled buttons.
+- Professional navigation.
+- Attractive images.
+- A background video on the home page.
+- Consistent spacing and alignment.
+- Responsive layouts for mobile devices and tablets.
+
+## Part 2 – CSS Styling and Responsive Design
+
+For Part 2, the PadEase website was improved using an external CSS stylesheet. The website was redesigned to create a more attractive, professional and consistent appearance across all pages.
+
+### CSS Features Implemented
+
+- Consistent pink colour scheme throughout the website.
+- Professional navigation bar.
+- Styled headings and paragraphs.
+- Responsive page layouts.
+- Styled buttons and links.
+- Image gallery styling.
+- Card and section styling.
+- Footer styling.
+
+### Responsive Design
+
+The PadEase website was designed to be responsive so that it can adapt to different screen sizes and devices.
+
+Media queries were used in the external CSS stylesheet to adjust:
+
+- Navigation links.
+- Content sections.
+- Headings.
+- Gallery images.
+- Page layout.
+- Mobile screen sizes.
+
+The website also includes a responsive hero section with a background video. The video automatically adjusts to fit the available screen while maintaining the layout of the page.
+
+### Additional Design Features
+
+The website also includes:
+
+- Background video on the home page.
+- Responsive navigation.
+- Styled buttons and links.
+- Image gallery.
+- Contact information.
+- Contact form.
+- Location/map section.
+- Consistent pink colour scheme.
+- Cards and content sections.
+- Responsive footer.
+- Hover effects on navigation links and buttons.
+
+## Website Pages
 
 ### Home Page
-The home page introduces PadEase and includes a background video, navigation, promotional content and calls to action.
+
+The home page introduces PadEase and explains its purpose. It contains a hero section with a background video, call-to-action buttons and information about affordable and reliable menstrual care.
 
 ### About Page
-The About page explains the purpose of PadEase and its focus on affordable menstrual care.
+
+The About page explains the purpose of PadEase and its commitment to affordable menstrual health products and education.
 
 ### Services Page
+
 The Services page provides information about the products and services offered by PadEase.
 
 ### Gallery Page
-The Gallery page displays images related to menstrual health and PadEase.
+
+The Gallery page displays images related to menstrual products and PadEase.
 
 ### Contact Page
-The Contact page provides contact information, location information and a contact form.
 
-## Responsive Design
+The Contact page allows users to find ways to communicate with PadEase. It includes:
 
-The website was designed to work on:
+- Telephone contact information.
+- Email address.
+- Location information.
+- Map.
+- Contact form.
+- Social media links.
 
-- Desktop computers
-- Tablets
-- Mobile phones
+## Website Folder Structure
 
-CSS media queries were used to adjust the layout, navigation, text and images for smaller screen sizes.
+The PadEase website is organised into the following folders:
 
-## Changelog
+- `CSS` – contains the external stylesheet.
+- `documents` – contains project documentation.
+- `images` – contains images used on the website.
+- `javascript` – contains JavaScript files.
+- `videos` – contains the background video used on the website.
 
-### Part 1
-- Created the PadEase website proposal.
-- Created the website structure and sitemap.
-- Created the initial HTML pages.
-- Added images and website content.
+The main HTML pages are:
 
-### Part 2
-- Added and improved the external CSS stylesheet.
-- Improved the colour scheme and overall visual appearance.
-- Added responsive design.
-- Improved navigation styling.
-- Improved buttons, sections and typography.
-- Added a background video to the home page.
-- Improved the Contact page with additional contact information.
-- Improved the About and Services pages.
-- Improved the Gallery page.
-- Prepared the website for desktop, tablet and mobile screen sizes.
+- `index.html`
+- `about.html`
+- `service.html`
+- `GALLERY.html`
+- `Contact.html`
 
 ## Technologies Used
 
+The PadEase website was developed using:
+
 - HTML5
 - CSS3
-- Visual Studio Code
-- GitHub
+- JavaScript
+- Responsive design techniques
+- HTML5 video
+
+## Video
+
+A background video was added to the home page to make the website more engaging and visually appealing.
+
+The video is stored in the `videos` folder and is linked to the home page using the HTML5 `<video>` element.
 
 ## References
 
-### Images
-Images used on the website were sourced from online image resources and are stored in the `images` folder of the project.
+Pexels. (2026). *A woman teaching how to use a sanitary napkin* [Video]. Available at: https://www.pexels.com/video/a-woman-teaching-how-to-use-a-sanitary-napkin-4911830/
 
-### Video
-Pexels. (2026). *A woman teaching how to use a sanitary napkin* [Video]. Pexels.
+Images used on the PadEase website were obtained from online image sources and are stored in the website's `images` folder.
 
-The video is stored in the `videos` folder and is used as the background video on the home page.
-
-## Author
-
-ST10526963
-
-## Course
-
-WEDE5020 – Web Development
+The website structure, HTML and CSS styling were developed by the student for the WEDE5020 Practical/POE project.
