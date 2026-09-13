@@ -1,0 +1,557 @@
+/* ================================
+   PadEase Main Stylesheet
+   ================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* ================================
+   HEADER
+   ================================ */
+
+.site-header {
+    height: 75px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    font-size: 45px;
+}
+
+.logo h2 {
+    color: #d41467;
+    font-family: Georgia, serif;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.logo span {
+    font-size: 11px;
+    color: #555;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+nav a:hover,
+nav a.active {
+    color: #e91e63;
+    border-bottom: 3px solid #e91e63;
+}
+
+.shop-button {
+    background: #e91e63;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.shop-button:hover {
+    background: #c2185b;
+}
+
+
+/* ================================
+   HERO
+   ================================ */
+
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.hero-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+.hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(60, 15, 35, 0.72),
+        rgba(100, 25, 55, 0.35),
+        rgba(80, 15, 40, 0.25)
+    );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 55%;
+    margin-left: 15%;
+    color: white;
+}
+
+.hero-small {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.hero h1 span {
+    color: #ff70b1;
+}
+
+.hero-text {
+    max-width: 540px;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.pink-button {
+    display: inline-block;
+    background: #f00072;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.pink-button:hover {
+    background: #c9005d;
+}
+
+.outline-button {
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.outline-button:hover {
+    background: white;
+    color: #e91e63;
+}
+
+
+/* HERO SIDE MESSAGE */
+
+.hero-message {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    color: white;
+    text-align: center;
+}
+
+.hero-message h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.hero-card {
+    background: rgba(255, 220, 237, 0.9);
+    color: #54204a;
+    padding: 18px 25px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.hero-card p {
+    margin: 8px 0;
+}
+
+
+/* ================================
+   FEATURES
+   ================================ */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #ffe5f1;
+    padding: 18px 8%;
+}
+
+.feature {
+    text-align: center;
+    padding: 5px 20px;
+    border-right: 1px solid #f3b7d0;
+}
+
+.feature:last-child {
+    border-right: none;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    background: #ffb1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.feature h3 {
+    color: #d41467;
+    margin-top: 4px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* ================================
+   ABOUT PREVIEW
+   ================================ */
+
+.about-preview {
+    display: grid;
+    grid-template-columns: 40% 38% 22%;
+    background: #fff;
+    min-height: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    padding: 35px;
+    background: #fff8fc;
+}
+
+.section-label {
+    color: #d41467;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.about-text h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 8px 0 15px;
+}
+
+.about-text h2 span {
+    color: #e91e63;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-card {
+    background: #ffe4f0;
+    padding: 35px 25px;
+}
+
+.about-card p {
+    margin-bottom: 12px;
+    color: #4b2142;
+}
+
+.about-card h3 {
+    color: #e91e63;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+/* ================================
+   CONTACT SECTION
+   ================================ */
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 30px 8%;
+    background: white;
+}
+
+.contact-section h2 {
+    color: #e91e63;
+    margin-bottom: 5px;
+}
+
+.contact-info,
+.find-us,
+.message-form {
+    padding: 10px 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.socials,
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.socials span,
+.footer-social span {
+    width: 35px;
+    height: 35px;
+    background: #e91e63;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/* FORM */
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.message-form input,
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d8bfd0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.message-form button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background: #c2185b;
+}
+
+
+/* ================================
+   FOOTER
+   ================================ */
+
+footer {
+    background: linear-gradient(90deg, #d50060, #ed0b77);
+    color: white;
+    padding: 25px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-family: Georgia, serif;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer > p {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+@media screen and (max-width: 900px) {
+
+    .site-header {
+        height: auto;
+        padding: 15px 5%;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        padding: 5px;
+    }
+
+    .hero-content {
+        width: 70%;
+        margin-left: 8%;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-message {
+        right: 4%;
+    }
+
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-preview {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-card {
+        grid-column: span 2;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .logo h2 {
+        font-size: 27px;
+    }
+
+    .shop-button {
+        display: none;
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .hero-content {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-message {
+        display: none;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .feature {
+        border-right: none;
+        border-bottom: 1px solid #f3b7d0;
+        padding: 15px;
+    }
+
+    .about-preview {
+        grid-template-columns: 1fr;
+    }
+
+    .about-card {
+        grid-column: auto;
+    }
+
+    .footer-links {
+        width: 100%;
+        justify-content: center;
+        margin: 15px 0;
+        flex-wrap: wrap;
+    }
+}
