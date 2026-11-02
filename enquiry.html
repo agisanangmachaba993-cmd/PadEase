@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiries - PadEase</title>
+    <meta name="description" content="Contact PadEase with enquiries about affordable menstrual hygiene products, pricing and availability.">
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-icon">🌸</span>
+            <div>
+                <h2>PadEase</h2>
+                <p>Comfort for a Brighter Tomorrow</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html" class="active">Enquiries</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="service.html" class="shop-button">🛒 Shop Now</a>
+    </header>
+
+    <section class="page-banner">
+        <h1>Make an Enquiry</h1>
+        <p>We are here to help with your PadEase questions.</p>
+    </section>
+
+    <main>
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>How Can We Help?</h2>
+                <p>
+                    Use this form to ask about our products,
+                    services, pricing and availability.
+                </p>
+                <p>
+                    Please provide enough information so we can
+                    understand your enquiry.
+                </p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Enquiry Form</h2>
+
+                <form
+                    id="enquiryForm"
+                    data-padease-form
+                    action="https://formsubmit.co/ajax/padease@gmail.com"
+                    method="POST"
+                >
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="New PadEase Enquiry"
+                    >
+
+                    <label for="enquiryName">Full Name</label>
+                    <input
+                        type="text"
+                        id="enquiryName"
+                        name="name"
+                        placeholder="Enter your full name"
+                        minlength="2"
+                        required
+                    >
+
+                    <label for="enquiryEmail">Email Address</label>
+                    <input
+                        type="email"
+                        id="enquiryEmail"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="enquiryPhone">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="enquiryPhone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                    >
+
+                    <label for="enquiryType">Enquiry Type</label>
+                    <select
+                        id="enquiryType"
+                        name="enquiry_type"
+                        required
+                    >
+                        <option value="">Select an enquiry type</option>
+                        <option value="Products">Products</option>
+                        <option value="Services">Services</option>
+                        <option value="Pricing">Pricing</option>
+                        <option value="Availability">Availability</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="enquiryMessage">Your Enquiry</label>
+                    <textarea
+                        id="enquiryMessage"
+                        name="message"
+                        placeholder="Write your enquiry here"
+                        minlength="10"
+                        required
+                    ></textarea>
+
+                    <button type="submit">Submit Enquiry</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            🌸 <strong>PadEase</strong>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html">Enquiries</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© 2026 PadEase | Comfort for a Brighter Tomorrow</p>
+        <p>Student Number: ST10526963</p>
+    </footer>
+
+    <script src="javascript/script.js" defer></script>
+</body>
+</html>
+
